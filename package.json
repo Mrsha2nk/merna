@@ -3,5 +3,9 @@
   "private": true,
   "devDependencies": {
     "lerna": "^3.22.1"
+  },
+  "dependencies": {
+    "library": "file:packages/library",
+    "web-app": "file:packages/web-app"
   }
 }
